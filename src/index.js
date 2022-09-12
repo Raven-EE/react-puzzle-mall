@@ -11,6 +11,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  // 开启严格模式
   <React.StrictMode>
     <Router>
       <App />

@@ -1,6 +1,6 @@
 .header__top {
   padding: 10px 0px;
-  background: #000d6b;
+  background: url('../../src/assets/all-images/bg-banner.jpg') no-repeat 50% / cover;
   color: #fff;
 }
 
@@ -22,7 +22,7 @@
 
 .header__top__help i {
   background: #fff;
-  color: #000d6b;
+  color: var(--color-primary);
   padding: 2px 4px;
   border-radius: 50px;
   font-size: 0.7rem;
@@ -54,7 +54,7 @@
 
 .logo h1 a {
   text-decoration: none;
-  color: #000d6b;
+  color: var(--color-primary);
   font-weight: 700;
 }
 
@@ -64,13 +64,13 @@
 
 .header__location span i {
   font-size: 2.2rem;
-  color: #000d6b;
+  color: var(--color-primary);
 }
 
 .header__location-content h4 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #000d6b;
+  color: var(--color-primary);
 }
 
 .header__location-content h6 {
@@ -78,11 +78,13 @@
 }
 
 .header__btn {
-  background: #000d6b !important;
-  padding: 10px 20px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
+  /* background: var(--color-primary-light); */
+  background: transparent;
+  padding: 8px 12px;
+  border: 2px solid var(--color-primary);
+  /* outline: none; */
+  border-radius: 8px;
+  transition: var(--transition);
 }
 
 .header__btn a {
@@ -90,20 +92,27 @@
   align-items: center;
   column-gap: 0.4rem;
   text-decoration: none;
-  color: #fff;
+  color: var(--color-primary);
   justify-content: flex-end;
   font-size: 0.9rem;
 }
 
-.header__btn a:hover {
-  color: #fff;
+.header__btn:hover {
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
+
+.header__btn:hover a{
+  color: #fff !important;
+}
+
 
 /* ================ main navbar styles =========== */
 
 .main__navbar {
   padding: 15px 0px;
-  background: #000d6b;
+  background: url('../../src/assets/all-images/bg-banner.jpg') no-repeat 50% / cover;
+  
 }
 
 .mobile__menu i {
@@ -129,16 +138,16 @@
 }
 
 .nav__item:hover {
-  color: #f9a826;
+  color: var(--color-point);
 }
 
 .search__box {
-  border: 1px solid #7c8a972f;
   padding: 7px 12px;
   display: flex;
   align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 50px;
-  background: #020a4de9;
+  background: transparent;
 }
 
 .search__box input {
@@ -151,14 +160,16 @@
 
 .search__box input::placeholder {
   font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
 }
+
 .search__box span i {
-  color: rgba(255, 255, 255, 0.555);
+  color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
 }
 
 .nav__active {
-  color: #f9a826;
+  color: var(--color-point);
 }
 
 @media only screen and (max-width: 768px) {
@@ -173,7 +184,7 @@
   }
 
   .navigation {
-    background: rgb(0, 13, 107, 0.6);
+    background: var(--color-mid-trans);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -195,7 +206,7 @@
   }
 
   .menu a {
-    color: #000d6b;
+    color: var(--color-primary);
     font-weight: 600;
     font-size: 0.9rem;
   }

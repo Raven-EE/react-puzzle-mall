@@ -1,0 +1,106 @@
+.puzzle__item {
+  border: 1px solid #7c8a9736;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.puzzle__item-info span i {
+  color: var(--color-point);
+  font-size: 1.1rem;
+}
+
+.puzzle__item-btn {
+  border-radius: 0;
+  border: 2px solid var(--color-primary);
+  padding: 8px 0px;
+}
+
+.puzzle__item-btn a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.puzzle__btn-purchase {
+  background: var(--color-primary);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.puzzle__btn-purchase:hover a {
+  color: var(--color-point);
+}
+
+.puzzle__btn-purchase a {
+  color: #fff;
+}
+
+.puzzle__btn-details {
+  background: transparent;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.puzzle__btn-details a {
+  color: var(--color-primary);
+}
+
+.puzzle__btn-details:hover a {
+  color: var(--color-primary-light);
+}
+
+
+
+.puzzle__item-content h4 {
+  font-size: 1.8rem;
+}
+
+.puzzle__item-content h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+  .puzzle__item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .puzzle__item h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .puzzle__item-info {
+    flex-wrap: wrap;
+  }
+
+  .puzzle__item-info span {
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+
+  .puzzle__item-btn {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .puzzle__item h4 {
+    font-size: 1rem;
+  }
+
+  .puzzle__item h6 {
+    font-size: 0.9rem;
+  }
+
+  .puzzle__item-info span {
+    font-size: 0.7rem;
+  }
+
+  .puzzle__item-info span i {
+    font-size: 0.9rem;
+  }
+
+  .puzzle__item-btn {
+    font-size: 0.8rem;
+  }
+}

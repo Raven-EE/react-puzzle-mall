@@ -8,6 +8,7 @@ import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
 import ava04 from "../../assets/all-images/ava-4.jpg";
 
+
 const Testimonial = () => {
   const settings = {
     dots: true,
@@ -42,76 +43,65 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, incidunt. Temporibus maxime inventore velit facilis dignissimos voluptatibus quisquam porro veniam!
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">王拼图</h6>
+            <p className="section__description">职位：##</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, incidunt. Temporibus maxime inventore velit facilis dignissimos voluptatibus quisquam porro veniam!
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">张拼图</h6>
+            <p className="section__description">职位：##</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, incidunt. Temporibus maxime inventore velit facilis dignissimos voluptatibus quisquam porro veniam!
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">李拼图</h6>
+            <p className="section__description">职位：##</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, incidunt. Temporibus maxime inventore velit facilis dignissimos voluptatibus quisquam porro veniam!
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">赵拼图</h6>
+            <p className="section__description">职位：##</p>
           </div>
         </div>
       </div>
     </Slider>
+    
   );
 };
 

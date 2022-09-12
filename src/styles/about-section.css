@@ -3,8 +3,22 @@
 }
 
 .about__section-item p i {
-  color: #f9a826;
+  color: var(--color-point);
   font-size: 1.1rem;
+}
+
+.about__img_fa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__img {
+  width: 70%;
+}
+
+.about__img img{
+  width: 100%;
 }
 
 @media only screen and (max-width: 992px) {

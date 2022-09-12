@@ -1,44 +1,44 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
-    icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "品牌齐全",
+    icon: "ri-windy-line",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eos at asperiores porro odio aliquid.",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
-    icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "原创作品",
+    icon: "ri-quill-pen-line",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eos at asperiores porro odio aliquid.",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
-    icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "品质拼图",
+    icon: "ri-home-smile-2-line",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eos at asperiores porro odio aliquid.",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
+    title: "全国配送",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eos at asperiores porro odio aliquid.",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "售后保证",
     icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eos at asperiores porro odio aliquid.",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
-    icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    title: "以旧换新",
+    icon: "ri-file-add-line",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eos at asperiores porro odio aliquid.",
   },
 ];
 

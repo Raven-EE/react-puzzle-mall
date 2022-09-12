@@ -1,3 +1,17 @@
+.about__page-content-fa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__page-img{
+  width: 80%;
+}
+
+.about__page-img img{
+  width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
   .about__page-content h2 {
     font-size: 1.5rem;

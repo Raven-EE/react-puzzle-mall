@@ -7,30 +7,29 @@ import "../../styles/header.css";
 const navLinks = [
   {
     path: "/home",
-    display: "Home",
+    display: "主页",
   },
   {
     path: "/about",
-    display: "About",
+    display: "关于我们",
   },
   {
-    path: "/cars",
-    display: "Cars",
+    path: "/puzzles",
+    display: "拼图选购",
   },
 
   {
-    path: "/blogs",
-    display: "Blog",
+    path: "/comments",
+    display: "客户评价",
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "联系我们",
   },
 ];
 
 const Header = () => {
   const menuRef = useRef(null);
-
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
   return (
@@ -41,9 +40,9 @@ const Header = () => {
           <Row>
             <Col lg="6" md="6" sm="6">
               <div className="header__top__left">
-                <span>Need Help?</span>
+                <span>帮助?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +1-202-555-0149
+                  <i class="ri-phone-fill"></i> +852 150-2330-2003
                 </span>
               </div>
             </Col>
@@ -51,11 +50,11 @@ const Header = () => {
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
                 <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
+                  <i class="ri-login-circle-line"></i> 登录
                 </Link>
 
                 <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i> Register
+                  <i class="ri-user-line"></i> 注册
                 </Link>
               </div>
             </Col>
@@ -67,27 +66,27 @@ const Header = () => {
       <div className="header__middle">
         <Container>
           <Row>
-            <Col lg="4" md="3" sm="4">
+            <Col lg="3" md="3" sm="4">
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
+                    <i class="ri-windy-line"></i>
                     <span>
-                      Rent Car <br /> Service
+                      Puzzle <br /> Mall
                     </span>
                   </Link>
                 </h1>
               </div>
             </Col>
 
-            <Col lg="3" md="3" sm="4">
+            <Col lg="4" md="3" sm="4">
               <div className="header__location d-flex align-items-center gap-2">
                 <span>
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>Beijing & HongKong</h4>
+                  <h6>BIT & CityU</h6>
                 </div>
               </div>
             </Col>
@@ -98,8 +97,8 @@ const Header = () => {
                   <i class="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Sunday to Friday</h4>
-                  <h6>10am - 7pm</h6>
+                  <h4>Monday to Sunday</h4>
+                  <h6>9am - 6pm</h6>
                 </div>
               </div>
             </Col>
@@ -110,9 +109,9 @@ const Header = () => {
               sm="0"
               className=" d-flex align-items-center justify-content-end "
             >
-              <button className="header__btn btn ">
+              <button className="header__btn">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
+                  <i class="ri-phone-line"></i> 联系我们
                 </Link>
               </button>
             </Col>
@@ -147,7 +146,7 @@ const Header = () => {
 
             <div className="nav__right">
               <div className="search__box">
-                <input type="text" placeholder="Search" />
+                <input type="text" placeholder="搜索" />
                 <span>
                   <i class="ri-search-line"></i>
                 </span>

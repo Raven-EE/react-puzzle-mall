@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
-import aboutImg from "../../assets/all-images/cars-img/bmw-offer.png";
+import aboutImg from "../../assets/all-images/about.png";
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -18,45 +18,37 @@ const AboutSection = ({ aboutClass }) => {
           <Col lg="6" md="6">
             <div className="about__section-content">
               <h4 className="section__subtitle">About Us</h4>
-              <h2 className="section__title">Welcome to car rent service</h2>
+              <h2 className="section__title">欢迎来到 Puzzle Mall</h2>
               <p className="section__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum blanditiis esse accusantium dignissimos labore
-                laborum. Veniam, corporis mollitia temporibus, in quaerat vero
-                deleniti amet dolorem repudiandae, pariatur nam dolore! Impedit
-                neque sit ad temporibus quam similique dolor ipsam praesentium
-                sunt.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, eos at asperiores porro odio aliquid laudantium quaerat magnam delectus veniam nisi nulla nihil. Illo saepe quidem dolore, tempora perspiciatis earum. Numquam debitis sapiente laudantium libero ad unde sint sunt, dolorum eaque eveniet consectetur laboriosam, adipisci blanditiis minima, vero accusantium hic?
               </p>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet consectetur.
+  
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet consectetur.
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet consectetur.
                 </p>
               </div>
             </div>
           </Col>
 
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" className="about__img_fa" >
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img src={aboutImg} alt=""/>
             </div>
           </Col>
         </Row>

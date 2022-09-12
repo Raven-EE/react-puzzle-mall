@@ -9,63 +9,35 @@ const BookingForm = () => {
   return (
     <Form onSubmit={submitHandler}>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="姓氏" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="Last Name" />
+        <input type="text" placeholder="名字" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="email" placeholder="Email" />
+        <input type="email" placeholder="邮件" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="number" placeholder="Phone Number" />
+        <input type="number" placeholder="电话号码" />
       </FormGroup>
 
+
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="From Address" />
+        <input type="text" placeholder="订购数量（每人限购3件）" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="To Address" />
+        <input type="text" placeholder="收货地址" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <select name="" id="">
-          <option value="1 person">1 Person</option>
-          <option value="2 person">2 Person</option>
-          <option value="3 person">3 Person</option>
-          <option value="4 person">4 Person</option>
-          <option value="5+ person">5+ Person</option>
+          <option value="1 luggage">送货上门</option>
+          <option value="2 luggage">自提</option>
         </select>
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <select name="" id="">
-          <option value="1 luggage">1 luggage</option>
-          <option value="2 luggage">2 luggage</option>
-          <option value="3 luggage">3 luggage</option>
-          <option value="4 luggage">4 luggage</option>
-          <option value="5+ luggage">5+ luggage</option>
-        </select>
-      </FormGroup>
-
-      <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="date" placeholder="Journey Date" />
-      </FormGroup>
-      <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input
-          type="time"
-          placeholder="Journey Time"
-          className="time__picker"
-        />
-      </FormGroup>
-
-      <FormGroup>
-        <textarea
-          rows={5}
-          type="textarea"
-          className="textarea"
-          placeholder="Write"
-        ></textarea>
+        <input type="text" placeholder="备注" />
       </FormGroup>
     </Form>
   );

@@ -1,6 +1,11 @@
+.service__item {
+  width: 100%;
+  text-align: center;
+}
+
 .service__item span i {
   font-size: 2.5rem;
-  color: #f9a826;
+  color: var(--color-point);
 }
 
 .service__item h6 {
@@ -10,7 +15,7 @@
 }
 
 .service__item h6:hover {
-  color: #f9a826;
+  color: var(--color-point);
 }
 
 @media only screen and (max-width: 768px) {
